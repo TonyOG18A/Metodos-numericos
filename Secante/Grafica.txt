@@ -1,0 +1,9 @@
+reset
+
+set size 1,1
+
+set grid
+set title "Polinomio"
+set xlabel "Eje X"
+set ylabel "Eje Y"
+plot "Grafica.dat" u 1:2 w l title "f(x)"
